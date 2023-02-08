@@ -42,7 +42,7 @@ mbed compile
 ```
 
 Program the target device with a Segger J-Link debug probe and
-[`sixtron_flash`](https://gitlab.com/catie_6tron/6tron-flash) tool:
+[`sixtron_flash`](https://github.com/catie-aq/6tron-flash) tool:
 ```shell
 sixtron_flash stm32l562ve BUILD/ZEST_CORE_STM32L562VE/GCC_ARM/omron-2smpb-02e-example.elf
 ```
